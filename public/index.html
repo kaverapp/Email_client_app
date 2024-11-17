@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Email Client</title>
+   <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <section class="filter">
+                <span>Filter By:</span>
+                <button class="active" data-filter="unread">Unread</button>
+                <button data-filter="read">Read</button>
+                <button data-filter="favorites">Favorites</button>
+            </section>
+    
+        </div>
+    </header>
+   
+    
+    <main class="container">
+        
+        <div class="email-layout">
+            <div class="email-list">
+                <!-- Email items will be inserted here by JavaScript -->
+            </div>
+
+            <div class="email-detail">
+                <!-- Selected email details will be shown here -->
+                <div class="email-placeholder">
+                    <h2>Select an email to view details</h2>
+                </div>
+            </div>
+            <div class="pagination">
+                <button id="prevPage">Previous</button>
+                <button id="nextPage">Next</button>
+            </div>
+        </div>
+    </main>
+
+   <script src="./src/index.js"></script>
+</body>
+</html>

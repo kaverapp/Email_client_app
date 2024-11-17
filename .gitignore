@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+npm-debug.log
+
+# Build output
+dist/
+build/
+
+# Webpack specific
+.cache/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.swp
+
+# Production build config
+webpack.config.prod.js
+
+# Miscellaneous
+*.bak
+*.old
+*.backup
